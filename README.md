@@ -13,7 +13,7 @@ npm i -g time-cli
 time-cli
 # 1581490592713
 ```
-### Covert
+### Convert
 ```sh
 time-cli 1581490592713
 # 2/12/2020, 2:56:32 PM

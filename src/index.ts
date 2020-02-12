@@ -32,6 +32,6 @@ function parseEpoch(epoch: number) {
 
     function print(unit: string) {
         console.log(new Date(epoch).toLocaleString());
-        console.log('# ' + interval + ' ' + unit + (interval > 1 ? 's' : '') + (future ? ' from now' : ' ago'));
+        console.log(interval + ' ' + unit + (interval > 1 ? 's' : '') + (future ? ' from now' : ' ago'));
     }
 }

@@ -28,6 +28,6 @@ function parseEpoch(epoch) {
     return print('second');
     function print(unit) {
         console.log(new Date(epoch).toLocaleString());
-        console.log('# ' + interval + ' ' + unit + (interval > 1 ? 's' : '') + (future ? ' from now' : ' ago'));
+        console.log(interval + ' ' + unit + (interval > 1 ? 's' : '') + (future ? ' from now' : ' ago'));
     }
 }

@@ -1,0 +1,30 @@
+{
+  "name": "time-cli",
+  "version": "1.0.0",
+  "description": "Get the current Unix time in milliseconds or converts an epoch to human readable time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "time-cli": "./index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrwdrv/time-cli.git"
+  },
+  "keywords": [
+    "time",
+    "timestamp",
+    "unix",
+    "epoch",
+    "convert"
+  ],
+  "author": "scrwdrv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scrwdrv/time-cli/issues"
+  },
+  "homepage": "https://github.com/scrwdrv/time-cli#readme"
+}
